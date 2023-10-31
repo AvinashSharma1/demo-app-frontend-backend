@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing .pid files
+pm2/
+
+# Editor directories and files
+.idea/
+.vscode/
+.DS_Store
+.editorconfig
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Optional npm cache directory
+.npm

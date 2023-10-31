@@ -1,0 +1,14 @@
+require("dotenv").config();
+
+const JWT_ACCESS_TOKEN_SECRET = process.env.JWT_ACCESS_TOKEN_SECRET;
+const JWT_REFRESH_TOKEN_SECRET = process.env.JWT_REFRESH_TOKEN_SECRET;
+const PORT = process.env.PORT;
+const DB_NAME = process.env.DB_NAME;
+const MONGODB_PASSWORD=process.env.MONGODB_PASSWORD;
+module.exports = {
+    JWT_ACCESS_TOKEN:JWT_ACCESS_TOKEN_SECRET,
+    JWT_REFERESH_TOKEN:JWT_REFRESH_TOKEN_SECRET,
+    PORT,
+    DB_NAME,
+    MONGODB_PASSWORD
+  };
